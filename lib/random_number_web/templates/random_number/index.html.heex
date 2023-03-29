@@ -1,0 +1,5 @@
+<h1><%= @count %></h1>
+
+<%= form_for @conn, "/random_number", fn _f -> %>
+    <%= submit("Generate New Number") %>
+<% end %>
